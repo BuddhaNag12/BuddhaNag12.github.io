@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glitter Live – Live Photo wallpapers</title>
+  <meta name="description" content="Turn any video into a Live Photo wallpaper that moves every time you wake your iPhone.">
+  <link rel="icon" href="glitter-live/icon.png">
+  <style>
+    :root { --bg: #f8fafc; --card: #ffffff; --text: #0f172a; --muted: #475569; --accent: #2563eb; --border: #e2e8f0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #090c12; --card: #121722; --text: #f8fafc; --muted: #a1a9b8; --accent: #93c5fd; --border: rgba(255,255,255,.1); }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 64px 20px 48px; text-align: center; }
+    img.icon { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 12px 32px rgba(15, 23, 42, .25); }
+    h1 { font-size: 40px; line-height: 1.15; margin: 24px 0 8px; letter-spacing: -0.02em; }
+    p.lead { color: var(--muted); font-size: 19px; margin: 0 auto 32px; max-width: 30em; }
+    ul.features { list-style: none; padding: 0; margin: 0 0 32px; display: grid; gap: 12px; text-align: left; }
+    ul.features li { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 14px 18px; }
+    ul.features b { display: block; }
+    ul.features span { color: var(--muted); font-size: 15px; }
+    nav { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+    a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    a:hover { text-decoration: underline; }
+    footer { color: var(--muted); font-size: 13px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="icon" src="glitter-live/icon.png" alt="Glitter Live app icon">
+    <h1>Glitter Live</h1>
+    <p class="lead">Turn any video into a Live Photo wallpaper that moves every time you wake your iPhone.</p>
+    <ul class="features">
+      <li><b>Trim Studio</b><span>Pick the perfect 1–3 seconds, frame it around the clock, and choose the cover photo.</span></li>
+      <li><b>Ready for the Lock Screen</b><span>Live Photos written the way the Lock Screen expects, so your wallpaper actually moves.</span></li>
+      <li><b>Explore</b><span>Hand-picked live wallpapers, saved in a tap.</span></li>
+      <li><b>Private by design</b><span>Your videos are processed on your iPhone and never uploaded. No watermark.</span></li>
+    </ul>
+    <nav>
+      <a href="https://github.com/BuddhaNag12/glitter-live/blob/main/docs/support.md">Support</a>
+      <a href="https://github.com/BuddhaNag12/glitter-live/blob/main/docs/privacy.md">Privacy Policy</a>
+    </nav>
+    <footer>© 2026 Buddha Nag</footer>
+  </main>
+</body>
+</html>
